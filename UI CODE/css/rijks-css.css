@@ -1,0 +1,315 @@
+body{
+    padding: 0;
+    
+}
+
+.artist-screen{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    background-image: url(../images/main-hall-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    object-fit: cover;
+    /* background-attachment: fixed; */
+}
+
+.imageScreen{
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    align-items: end;
+}
+
+#nightWatch{
+    background-image: url(../images/the-night-watch.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rijksDiv{
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.rijksDivTwo{
+    width: 70%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    background: red;
+}
+
+/* .paddLogo{
+    padding: 50px 0px 150px;
+} */
+
+.rijksLogo{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    padding: 50px 0px 375px;
+}
+
+.fontQ,
+.quizFont{
+    font-family: 'Questrial', sans-serif;
+}
+
+.quizFont{
+    font-size: 1.25rem !important;
+    color: white;
+}
+
+h3.fontQ{
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    margin: 0;
+    padding: 0px 0px 50px;
+}
+
+h1.fontQ{
+    color: white;
+    font-size: 24px;
+    margin: 0;
+    padding: 0px 0px 25px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+h2.fontQ{
+    color: white;
+    font-size: 24px;
+    margin: 0;
+    padding: 15px 0px 50px;
+}
+
+h2.fontQ > a{
+    text-decoration: none;
+    color: white;
+}
+
+h2.fontQ > a:hover{
+    color: #d55140;
+    /* text-decoration: underline; */
+}
+
+p.fontQ{
+    color: white;
+    font-size: 16px;
+    line-height: 1.75em;
+    padding: 0 0;
+    /* 25px */
+    margin: 0 0;
+}
+
+.artistImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    margin: 0;
+    padding: 0;    
+}
+
+.infoCard{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 25px;
+}
+
+.btn-RED{
+    background-color: #d55140;
+}
+
+.card{
+    box-shadow: none;
+    margin: 25px auto 25px;
+}
+
+.card-action{
+    border: none;
+}
+
+/* .btn {
+    text-transform: none;
+    display: flex;
+    align-items: center;
+} */
+
+.img-hover-zoom {
+    height: 425px; /* [1.1] Set it as per your need */
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+  }
+
+  .img-hover-zoom img {
+    transition: transform 1s ease-in-out;
+  }
+  
+  .img-hover-zoom:hover img {
+    transform: scale(1.25);
+  }
+
+.uvaLogo{
+    width: auto;
+    height: 100px;
+}
+
+@keyframes colorChange {
+    0% {
+      color: white;
+    }
+    50% {
+      color: #d55140;
+    }
+    100% {
+      color: white;
+    }
+}
+
+.pulseText {
+    animation: colorChange 1.75s infinite;
+}
+
+.modal-close:focus, .modal-close:hover{
+    color: #d55140;
+    text-decoration: none;
+}
+
+/*  */
+.material-symbols-outlined{
+    line-height: 1.5 !important;
+}
+
+@media only screen and (min-width: 1440px){
+    .modal-dialog {
+        width: 960px;
+    }
+}
+
+.modal-content{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-close{
+    color: white;
+}
+
+.modal-dialog{
+    margin: 96px auto;
+}
+
+.btn-brand{
+    background-color: #d55140;
+    color: white;
+    font-family: 'Questrial', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 8px 10px 6px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.btn-brand:hover{
+    background-color: white;
+    color: #d55140 !important;
+}
+
+/*  */
+
+.mainTitle{
+    font-family: 'Questrial', sans-serif;
+    color: white;
+    font-size: 24px;
+    margin: 0;
+    /* padding: 0px 0px 25px; */
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.paintingName{
+    font-family: 'Questrial', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+    color: white;
+    margin: 0;
+    padding: 0 0;
+}
+
+.painterName{
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: white;
+    margin: 0;
+    padding: 0 0 24px;
+}
+
+.paintingType,
+.paintingDimensions{
+    font-family: 'Questrial', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #a2abad;
+    margin: 0;
+    padding: 0;
+}
+
+.paintingDescription{
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    color: white;
+    margin: 0;
+    padding: 24px 0 36px;
+}
+
+.paintDisp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 24px;
+}
+
+.quizDiv{
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 100px 0;
+    margin: 0;
+    background-color: black;
+}
+
+.quizTitle{
+    margin: 0 auto 35px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem !important;
+}
+
+.txtRed{
+    color: #d55140;
+    text-decoration: none;
+}
+
+.margin-bottom-md{margin-bottom: 24px!important}
+
+/* .radiobtn-circle-check:after,
+.radiobtn-circle-check:before{
+    background: #d55140 !important;
+} */
+
+.checkbox-circle, .radiobtn-circle{
+    border: 2px solid rgba(213,81,64,.5);
+}
