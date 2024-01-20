@@ -1,6 +1,6 @@
 body{
     padding: 0;
-    
+    background: black;
 }
 
 .artist-screen{
@@ -60,6 +60,14 @@ body{
     display: block;
     margin: 0;
     padding: 50px 0px 375px;
+}
+
+.rijksLogoLogin{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    padding: 50px 0px 175px;
 }
 
 .fontQ,
@@ -126,6 +134,7 @@ p.fontQ{
 }
 
 .infoCard{
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
     background-color: rgba(0, 0, 0, 0.7);
     padding: 25px;
 }
@@ -289,7 +298,7 @@ p.fontQ{
     height: auto;
     display: none;
     padding: 100px 0;
-    margin: 0;
+    margin: 0 0 75px 0;
     background-color: black;
 }
 
@@ -321,4 +330,28 @@ label{
 
 .answerTxt{
     color: green !important;
+}
+
+.scoreboardTable{
+    background: rgba(0, 0, 0, 0.7) !important;
+}
+
+.table>thead td, .table>thead th{
+    color: white;
+    font-size: 14px;
+}
+
+.table td, .table th{
+    color: white;
+    font-size: 18px;
+}
+
+
+.table>tbody>tr:hover{
+    background: none;
+};
+
+section.bgWhite{
+    background: white !important;
+    
 }
