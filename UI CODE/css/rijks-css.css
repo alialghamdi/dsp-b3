@@ -25,11 +25,14 @@ body{
     align-items: end;
 }
 
-#nightWatch{
-    background-image: url(../images/the-night-watch.jpg);
+#paintingBanner{
+    /* background-image: url(../images/the-night-watch.jpg); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    /* display: block; */
+    width: 100%;
+    height: 100vh;
 }
 
 .rijksDiv{
@@ -280,10 +283,11 @@ p.fontQ{
     margin: 0 auto 24px;
 }
 
-.quizDiv{
+.quizDiv,
+#quiz{
     width: 100%;
     height: auto;
-    display: block;
+    display: none;
     padding: 100px 0;
     margin: 0;
     background-color: black;
@@ -305,11 +309,16 @@ p.fontQ{
 
 .margin-bottom-md{margin-bottom: 24px!important}
 
-/* .radiobtn-circle-check:after,
-.radiobtn-circle-check:before{
-    background: #d55140 !important;
-} */
-
 .checkbox-circle, .radiobtn-circle{
     border: 2px solid rgba(213,81,64,.5);
+}
+
+/*  */
+
+label{
+    font-size: 1rem !important;
+}
+
+.answerTxt{
+    color: green !important;
 }
