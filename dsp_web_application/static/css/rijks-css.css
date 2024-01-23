@@ -356,3 +356,10 @@ section.bgWhite{
     background: white !important;
     
 }
+
+.imageExpand{
+    position: absolute;
+    top: 5%;
+    right: 3%;
+    display: block;
+}
