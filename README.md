@@ -1,3 +1,4 @@
-# UvA DSP - B2
+# UvA DSP - B3
 
-This is where it starts!
+## Multiple-choice question generation for art pieces based on generative AI
+
