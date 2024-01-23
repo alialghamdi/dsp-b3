@@ -27,7 +27,7 @@ body{
 
 #paintingBanner{
     /* background-image: url(../images/the-night-watch.jpg); */
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     /* display: block; */
@@ -241,6 +241,7 @@ p.fontQ{
     font-family: 'Questrial', sans-serif;
     color: white;
     font-size: 24px;
+    line-height: 1.5;
     margin: 0;
     /* padding: 0px 0px 25px; */
     display: flex;
@@ -354,4 +355,11 @@ label{
 section.bgWhite{
     background: white !important;
     
+}
+
+.imageExpand{
+    position: absolute;
+    top: 5%;
+    right: 3%;
+    display: block;
 }
