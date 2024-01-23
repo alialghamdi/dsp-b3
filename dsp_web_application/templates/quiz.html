@@ -23,6 +23,13 @@
             <section>
                 <div class="imageScreen" id="paintingBanner" style="background-image: url({{ collection_data.img_url }});">
                     <!-- pass the image URL variable after background-image: varName -->
+
+                    <!-- Expand Image button  -->
+                    <a href="javascript:void(0)" class="imageExpand" onclick="imageExpand()">
+                        <span class="material-symbols-outlined text-white">collapse_content</span>
+                    </a>
+                    <!--  -->
+
                     <div class="rijksDiv">
                         <div class="row paintDisp">
                             <div class="col-md-6">
@@ -250,6 +257,18 @@
             </div>
         </div>
         <!-- End of Description Pop Up -->
+
+        <script>
+            function imageExpand() {
+              var x = document.getElementById("paintingBanner");
+              if (x.style.backgroundSize === "cover") {
+                x.style.backgroundSize = "contain";
+              } else {
+                x.style.backgroundSize = "cover";
+              }
+            }
+        </script>
+
         <script>
             function showHide() {
               var x = document.getElementById("quiz");
