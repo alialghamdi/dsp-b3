@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta content="IE=edge" http-equiv="X-UA-Compatible">
+        <meta content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width" name="viewport">
+        <title>RIJKSMUSEUM - DSP</title>
+        <!-- css -->
+        <link href="../static/css/base.min.css" rel="stylesheet">
+        <link href="../static/css/project.min.css" rel="stylesheet">
+        <link href="../static/css/rijks-css.css" rel="stylesheet">
+        <!-- Google Fonts  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+        <!-- Material Icons -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+        <!-- favicon -->
+        <!-- ... -->
+    </head>
+    <body class="page-brand">
+        <main>
+            <section>
+                <div class="imageScreen" id="paintingBanner" style="background-image: url({{ collection_data.img_url }});">
+                    <!-- pass the image URL variable after background-image: varName -->
+                    <div class="rijksDiv">
+                        <div class="row paintDisp">
+                            <div class="col-md-10">
+                                <h1 class="mainTitle card-heading pull-left">
+                                    <a data-toggle="modal" href="#popUpBox">
+                                    <span class="material-symbols-outlined pulseText">info</span></a>
+                                    <!-- Pop Up content available end of Main below -->
+                                    &nbsp;&nbsp;
+                                    <!-- Pass Painting Name and Year variables here -->
+                                    {{ collection_data.longtitle }}
+                                    <!--  -->
+                                </h1>
+                            </div>
+                            <div class="col-md-6">
+                                <a class="btn btn-brand waves-attach waves-light fontQ pull-right" href="#quiz" onclick="showHide()"> Take Quiz </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="quizDiv" id="quiz">
+                <!-- <div class="rijksDivTwo" style=""> -->
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <h1 class="fontQ quizTitle">TAKE THE QUIZ</h1>
+                        <p class="fontQ margin-bottom-lg"> {{ chat_gpt_data.description }} </p>
+                        <div class="questionSection">
+                            <div class="form-group margin-bottom-no">
+                                <!-- Q1 Start -->
+                                <div class="row quizFont margin-bottom-lg">
+                                    <div class="col-md-12">
+                                        <h2 class="mainTitle card-heading pull-left">
+{#                                            <a class="material-symbols-outlined pulseText"><span class="material-symbols-outlined txtRed">question_mark</span></a>&nbsp;&nbsp;#}
+                                            <!-- Add Q1 here -->
+                                            {{ chat_gpt_data.question_1 }}
+                                            <!--  -->
+                                        </h2>
+                                    </div>
+                                    <div class="col-md-6 margin-bottom-sm">
+                                        <div class="radiobtn radiobtn-adv">
+                                            <label for="quest_1_1">
+                                                <input class="access-hide" id="quest_1_1" name="quest1" type="radio">
+                                                <span class="" id="{{ chat_gpt_data.question_1_answer_1 }}">
+                                                    <!-- Add Options here -->
+                                                    {{ chat_gpt_data.question_1_answer_1 }}
+                                                    <!--  -->
+                                                </span>
+                                                <span class="radiobtn-circle"></span><span class="radiobtn-circle-check"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <!-- Opt1 -->
+                                    <div class="col-md-6 margin-bottom-sm">
+                                        <div class="radiobtn radiobtn-adv">
+                                            <label for="quest_1_2">
+                                                <input class="access-hide" id="quest_1_2" name="quest1" type="radio">
+                                                <span class="" id="{{ chat_gpt_data.question_1_answer_2 }}">
+                                                    <!-- Add Options here -->
+                                                   {{ chat_gpt_data.question_1_answer_2 }}
+                                                    <!--  -->
+                                                </span>
+                                                <span class="radiobtn-circle"></span><span class="radiobtn-circle-check"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <!-- Opt2 -->
+                                    <div class="col-md-6 margin-bottom-sm">
+                                        <div class="radiobtn radiobtn-adv">
+                                            <label for="quest_1_3">
+                                                <input class="access-hide" id="quest_1_3" name="quest1" type="radio">
+                                                <span class="" id="{{ chat_gpt_data.question_1_answer_3 }}">
+                                                    <!-- Add Options here -->
+                                                    {{ chat_gpt_data.question_1_answer_3 }}
+                                                    <!--  -->
+                                                </span>
+                                                <span class="radiobtn-circle"></span><span class="radiobtn-circle-check"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <!-- Opt3 -->
+                                    <div class="col-md-6 margin-bottom-sm">
+                                        <div class="radiobtn radiobtn-adv">
+                                            <label for="quest_1_4">
+                                                <input class="access-hide" id="quest_1_4" name="quest1" type="radio">
+                                                <span class="" id="{{ chat_gpt_data.question_1_answer_4 }}">
+                                                    <!-- Add Options here -->
+                                                    {{ chat_gpt_data.question_1_answer_4 }}
+                                                    <!--  -->
+                                                </span>
+                                                <span class="radiobtn-circle"></span><span class="radiobtn-circle-check"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <!-- Opt4 -->													
+                                </div>
+                                <!-- Q1 End -->
+                                <!-- Q2 Start -->
+                                <div class="row quizFont margin-bottom-lgs">
+                                    <div class="col-md-12">
+                                        <h2 class="mainTitle card-heading pull-left">
+                                            <!-- Add Q2 here -->
+                                            {{ chat_gpt_data.question_2 }}
+                                            <!--  -->
+                                        </h2>
+                                    </div>
+                                    <div class="col-md-6 margin-bottom-sm">
+                                        <div class="radiobtn radiobtn-adv">
+                                            <label for="quest_2_1">
+                                                <input class="access-hide" id="quest_2_1" name="quest2" type="radio">
+                                                <span class="" id="{{ chat_gpt_data.question_2_answer_1 }}">
+                                                    <!-- Add Options here -->
+                                                   {{ chat_gpt_data.question_2_answer_1 }}
+                                                    <!--  -->
+                                                </span>
+                                                <span class="radiobtn-circle"></span><span class="radiobtn-circle-check"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <!-- Opt1 -->
+                                    <div class="col-md-6 margin-bottom-sm">
+                                        <div class="radiobtn radiobtn-adv">
+                                            <label for="quest_2_2">
+                                                <input class="access-hide" id="quest_2_2" name="quest2" type="radio">
+                                                <span class="" id="{{ chat_gpt_data.question_2_answer_2 }}"">
+                                                    <!-- Add Options here -->
+                                                    {{ chat_gpt_data.question_2_answer_2 }}
+                                                    <!--  -->
+                                                </span>
+                                                <span class="radiobtn-circle"></span><span class="radiobtn-circle-check"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <!-- Opt2 -->
+                                    <div class="col-md-6 margin-bottom-sm">
+                                        <div class="radiobtn radiobtn-adv">
+                                            <label for="quest_2_3">
+                                                <input class="access-hide" id="quest_2_3" name="quest2" type="radio" >
+                                                <span class="" id="{{ chat_gpt_data.question_2_answer_3 }}">
+                                                    <!-- Add Options here -->
+                                                   {{ chat_gpt_data.question_2_answer_3 }}
+                                                    <!--  -->
+                                                </span>
+                                                <span class="radiobtn-circle"></span><span class="radiobtn-circle-check"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <!-- Opt3 -->
+                                    <div class="col-md-6 margin-bottom-sm">
+                                        <div class="radiobtn radiobtn-adv">
+                                            <label for="quest_2_4">
+                                                <input class="access-hide" id="quest_2_4" name="quest2" type="radio">
+                                                <span class="" id="{{ chat_gpt_data.question_2_answer_4 }}">
+                                                    <!-- Add Options here -->
+                                                    {{ chat_gpt_data.question_2_answer_4 }}
+                                                    <!--  -->
+                                                </span>
+                                                <span class="radiobtn-circle"></span><span class="radiobtn-circle-check"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <!-- Opt4 -->													
+                                </div>
+                                <!-- Q2 End -->
+
+                                <input type="hidden" id="answer_q1" name="answer_q1" value="{{ chat_gpt_data.question_1_correct_answer }}">
+                                <input type="hidden" id="answer_q2" name="answer_q2" value="{{ chat_gpt_data.question_2_correct_answer }}">
+                                <!-- Main Submit Button -->							
+                                <div class="row">
+                                    <div class="col-md-12 margin-top-lg">
+                                        <a class="btn btn-brand waves-attach waves-light fontQ pull-right waves-effect" id="submit_button" onclick="checkSelectedValue()"> SUBMIT ANSWER </a>
+                                    </div>
+                                </div>
+                                <!-- Main Submit Button -->							
+                            </div>
+                            <!-- form Group for both Questions and Submit Button-->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Painting Section -->
+            <section>
+                <div class="footerMain infoCard">
+                    <div class="rijksDiv">
+                        <div class="row" style="display: flex; align-items: center; justify-content: center;">
+                            <div class="col-md-6">
+                                <img src=",,/static/images/uva-logo.png" class="uvaLogo" alt="UVA" />
+                            </div>
+                            <div class="col-md-6">
+                                <p class="fontQ pull-right" style="text-align: right;">Data Systems Project<br/>Group: B3</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer -->
+            </section>
+            <!-- Quiz Section -->
+        </main>
+        <!-- End of Main -->
+        <!-- Description Pop Up -->
+        <div aria-hidden="true" class="modal fade" id="popUpBox" role="dialog" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-heading">
+                        <a class="modal-close" data-dismiss="modal">×</a>
+                        <h2 class="modal-title">&nbsp;</h2>
+                    </div>
+                    <!-- Pop Up Close Div -->
+                    <div class="modal-inner">
+                        <h1 class="paintingName">{{ collection_data.title}}, {{ collection_details_data.artObject.dating.presentingDate }}</h1>
+                        <!-- Painting Name and Year -->
+                        <h1 class="painterName">{{ collection_data.artist }}</h1>
+                        <!-- Painter Name -->
+                        <p class="paintingType">{{ collection_details_data.artObject.physicalMedium }}</p>
+                        <!-- Painting Type/Style -->
+                        <p class="paintingDimensions">Height: {{ collection_details_data.artObject.dimensions.0.value }}cm, Width: {{ collection_details_data.artObject.dimensions.1.value }}cm</p>
+                        <!-- Painting Dimensions -->
+                        <p class="paintingDescription">
+                            {{ collection_details_data.artObject.plaqueDescriptionEnglish }}
+                            <!-- Painting Description -->
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of Description Pop Up -->
+        <script>
+            function showHide() {
+              var x = document.getElementById("quiz");
+              if (x.style.display === "none") {
+            	x.style.display = "none";
+              } else {
+            	x.style.display = "block";
+              }
+            }
+
+            function checkSelectedValue() {
+            // Get the selected radio button
+            const user_answer1 = document.querySelector('input[name="quest1"]:checked');
+            const user_answer2 = document.querySelector('input[name="quest2"]:checked');
+
+            const correct_answer_q1 = document.getElementById("answer_q1").value;
+            const correct_answer_q2 = document.getElementById("answer_q2").value;
+
+            let score = 0;
+
+            if (user_answer1 && user_answer2) {
+                // Get the text content of the selected option
+                const selectedOptionAnswer1 = user_answer1.nextElementSibling.textContent.trim();
+                const selectedOptionAnswer2 = user_answer2.nextElementSibling.textContent.trim();
+
+                var q1_green = document.getElementById(correct_answer_q1);
+                var q2_green = document.getElementById(correct_answer_q2);
+
+                q1_green.className = "answerTxt";
+                q2_green.className = "answerTxt";
+
+                var pageCount = {{ page_count }};
+
+
+                var newAnchor = document.createElement("a");
+                newAnchor.id = "next_button";
+                newAnchor.className = "btn btn-brand waves-attach waves-light fontQ pull-right waves-effect";
+
+                console.log(pageCount)
+                if (pageCount === 3) {
+                    // Redirect to the leaderboard page
+                    newAnchor.textContent = "GO TO SCOREBOARD";
+                } else {
+                    // Reload the current page
+                    newAnchor.textContent = "NEXT PAINTING";
+                }
+
+                newAnchor.onclick = checkAndRedirect;
+
+                // Get a reference to the existing anchor element
+                var oldAnchor = document.getElementById("submit_button");
+
+                // Get the parent node of the old anchor
+                var parent = oldAnchor.parentNode;
+
+                // Replace the old anchor with the new one
+                parent.replaceChild(newAnchor, oldAnchor);
+
+                // Replace 'Target Value' with the actual value you want to check against
+                // Compare the selected value with the target value
+                if (selectedOptionAnswer1 === correct_answer_q1 && selectedOptionAnswer2 === correct_answer_q2) {
+                    console.log('Correct answer to 2 questions!'); // Replace with your desired logic
+                    score += 2;
+                }
+                else if ((selectedOptionAnswer1 === correct_answer_q1 || selectedOptionAnswer2 === correct_answer_q2) && !(selectedOptionAnswer1 === correct_answer_q1 && selectedOptionAnswer2 === correct_answer_q2)) {
+                    console.log('Correct answer to 1 question'); // Replace with your desired logic
+                    score += 1;
+                }
+                {#else {#}
+                {#    alert('Both answers are incorrect Please try again.'); // Replace with your desired logic#}
+                {#}#}
+            } else {
+                alert('Please select an option before submitting.'); // Replace with your desired logic
+            }
+            console.log(score);
+                // Example data to be sent to the server
+            const dataToSend = { key: score };
+
+            fetch('/process_score', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(dataToSend),
+            })
+            .then(response => response.json())
+            .then(data => {
+                // Handle the response from the server
+                console.log(data);
+            })
+            .catch(error => {
+                // Handle errors
+                console.error('Error:', error);
+            });
+        }
+
+        function checkAndRedirect() {
+            var pageCount = {{ page_count }};
+            {#var artist = {{ collection_data.artist }};#}
+            if (pageCount === 3) {
+                // Redirect to the leaderboard page
+                window.location.href = '/scoreboard';
+            } else {
+                // Reload the current page
+                location.reload(true);
+            }
+        }
+        </script>
+        <!-- Show/Hide Quiz section Toggle -->
+        <!-- js -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <script src="../static/js/base.min.js"></script>
+        <script src="../static/js/project.min.js"></script>
+    </body>
+</html>
