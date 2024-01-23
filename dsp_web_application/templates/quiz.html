@@ -25,16 +25,18 @@
                     <!-- pass the image URL variable after background-image: varName -->
                     <div class="rijksDiv">
                         <div class="row paintDisp">
-                            <div class="col-md-10">
-                                <h1 class="mainTitle card-heading pull-left">
-                                    <a data-toggle="modal" href="#popUpBox">
-                                    <span class="material-symbols-outlined pulseText">info</span></a>
-                                    <!-- Pop Up content available end of Main below -->
-                                    &nbsp;&nbsp;
-                                    <!-- Pass Painting Name and Year variables here -->
-                                    {{ collection_data.longtitle }}
-                                    <!--  -->
-                                </h1>
+                            <div class="col-md-6">
+                                <div class="mainTitle card-heading">
+                                    <div class="margin-right">
+                                        <a data-toggle="modal" href="#popUpBox">
+                                        <span class="material-symbols-outlined pulseText">info</span></a>
+                                    </div>
+                                    <div>
+                                        <h1 class="mainTitle pull-left">
+                                            {{ collection_data.longtitle }}
+                                        </h1><!-- Pass Painting Name and Year variables here -->
+                                    </div>
+                                </div>
                             </div>
                             <div class="col-md-6">
                                 <a class="btn btn-brand waves-attach waves-light fontQ pull-right" href="#quiz" onclick="showHide()"> Take Quiz </a>
