@@ -1,0 +1,8 @@
+cd dsp_web_application
+
+pip install flask-sqlalchemy
+
+python -m venv venv
+
+source venv/bin/activate
+
