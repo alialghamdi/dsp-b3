@@ -241,6 +241,7 @@ p.fontQ{
     font-family: 'Questrial', sans-serif;
     color: white;
     font-size: 24px;
+    line-height: 1.5;
     margin: 0;
     /* padding: 0px 0px 25px; */
     display: flex;
