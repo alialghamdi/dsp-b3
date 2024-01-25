@@ -1,0 +1,107 @@
+Simon Kreulen  00:01
+All right, Huguette thank you for interacting with our environment. Now I would like to ask you some questions about about your experience with Masterstroke. So to start with the initial impression, what were your first impressions of the new web application compared to the Rijksstudio that you've used before?
+
+Huguette  00:27
+It's good. I thought it actually looked better than the Rijksstudio, the previous one, because it was more my style, but it was really good. Easy and simple, but nice. Yeah.
+
+Simon Kreulen  00:39
+And how easy was it to navigate and use the new application?
+
+Huguette  00:44
+That was also easy. The only thing that I've noticed that the first time, I tried to click on a picture, but you could only click on the name. But so. But I quickly noticed you needed to click on the names, and then it was really straightforward. Taking the quiz and zooming in and zooming out also very nice. So no, that was really good.
+
+Simon Kreulen  01:05
+And then did the AI generated questions and answer engage well with the artwork?
+
+Huguette  01:13
+Yes, it is. Yeah.
+
+Simon Kreulen  01:21
+All right. And in. So in comparison of the new application with the Rijks studio, what features do you find different or improved in our new application compared to the Rijksstudio?
+
+Huguette  01:36
+I think the quiz aspects. For me, definitely, because I'm not that big of an arts fan. But because of the questions, I needed to really look at the painting, which was really open minding, because then you really looked at the technique and the face expression and what he was holding, etc. So, yeah, it makes me take more minutes to look at a painting than normally.
+
+Simon Kreulen  02:03
+All right. And when we talk about preferences, so which platform do you prefer then for exploring art collections? And why?
+
+Huguette  02:14
+I think then, for me, the new one, so not Rijksstudio, but the one you created, Masterstroke. Because of the quiz aspects which I really love. And it makes it fun.
+
+Simon Kreulen  02:33
+And how relevant did you find the AI generated questions to the artwork and the artist?
+
+Huguette  02:40
+You mean, how relevant it corresponds to the painting? Yeah. It was really straightforward. If you Yeah, so there was also like the introduction text, but also the painting. So it was really Yeah, straightforward. It was not a random question. So that was good. Okay.
+
+Simon Kreulen  02:57
+Did the questions help you learn more about the art? Or the artists?
+
+Huguette  03:01
+Yes. Yeah. Not that my knowledge was that big, but it helped. Really. Okay.
+
+Simon Kreulen  03:07
+So now you're also curious about going to the museum or?
+
+Huguette  03:11
+Yeah I am definitely curious what the artist has more Yeah. Yeah.
+
+Simon Kreulen  03:17
+All right. And the difficulty level of the questions, was it appropriate for your knowledge of art?
+
+Huguette  03:26
+I think if you're know a lot about art, then maybe it's not difficult enough. But I think it's really important to also include people like me that know less about our to make it also easier for them to go. So to make it more. Yeah, to easier to go. So now, it was good, good level of difficulty. It was not extremely easy or something.
+
+Simon Kreulen  03:47
+Okay. And when we talk about the scoring system, so did the scoring system motivate you to explore more artworks and artists to get higher on the scoreboard?
+
+Huguette  04:01
+Yes, because I did a great job haha. No, yeah, it did. I mean, I'm curious about the other artists and what where they differ and I can I can imagine what it will be if you see it in the real life. 
+
+Simon Kreulen  04:14
+Was it clear how the scores were calculated? To get higher?
+
+Huguette  04:19
+I think just one point for each question. Yeah, so it was clear. Yeah.
+
+Simon Kreulen  04:27
+Okay, and for the overall satisfaction and improvements. Well, yeah, how satisfied are you with the master stroke?
+
+Huguette  04:41
+I think it's especially because we're all like active online these days. I think it's a really good improvement to make the museum interactive, that it is interesting for our generation. And for people like me, because yeah, it's Yeah, I think it's a really big improvement. 
+
+Simon Kreulen  05:00
+Okay, good to hear that. And now for Yeah. Closing remarks. Are there any final thoughts or comments about your experience?
+
+Huguette  05:10
+Um, no, I was just wondering like, are you going to do all the painters or, like a selection? Or?
+
+Simon Kreulen  05:17
+Yeah, well, for this prototype, we want to show our idea just for a few artists. But if you would really integrate this in the Rijksstudio, then ideally you would include as many artists as possible. Yeah. It's just this selection for our prototype. 
+
+Huguette  05:40
+And if I will do the questions again, are there new questions, or  
+
+Simon Kreulen  05:45
+there are new questions, but the same paintings for each artist, you will get New questions about the painting.
+
+Huguette  05:53
+Well, then I will do another round. 
+
+Simon Kreulen  05:55
+Thats because of the generative AI.
+
+Huguette  05:58
+I didn't know it was possible.
+
+Simon Kreulen  06:01
+Okay, okay. Well, thank you for your time.
+
+Huguette  06:04
+Thank you for sharing this experience with me. Okay.
+
+Simon Kreulen  06:09
+Thank you.
+
+
+Transcribed by https://otter.ai
