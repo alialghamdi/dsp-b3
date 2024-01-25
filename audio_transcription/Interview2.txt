@@ -1,0 +1,89 @@
+Interviewer  0:00  
+Okay, so now you've been able to use both the old application or old, the Rijksstudio, and the new one. So now it's time to ask you a few questions in this interview, to see what you thought of it. And to see if you have any tips or tricks, you know, how to improve the application. So, first of all, the general experience. What are your first impressions of the new application compared to the Rijksstudio?
+
+Interviewee  0:27  
+My first impressions, I think it's definitely much nicer to look at. I like for example, that as soon as you went onto the new website, you've had the Rijksmuseum, very big on the screen. And as soon as you scroll down, different pictures appeared, I think that was very, very appealing. And that was not the case for the Rijksuseum website before. So I think that the design has been enhanced quite a lot, especially also seeing very famous paintings, those that are also displayed quite often at the museum. To me that's very appealing, and having the names on there as well. 
+
+Interviewer  1:11  
+Great great. How easy was it to navigate and use the new application?
+
+Interviewee  1:19  
+It was not that easy to be fair. I remember I clicked on the photos, and nothing happened. So I think that this can definitely be improved, to not only be able to click on the names, but also on the photo. But other than that, yeah, it's quite easy to look at.
+
+Interviewer  1:39  
+Okay. And do you think the AI generated questions enhanced your engagement with the artworks?
+
+Interviewee  1:48  
+To be honest? Not really. Because of the descriptions that I had about the art piece, I didn't really have to look at the art piece to be able to answer the questions. So it might be an option to not have the descriptions. So I actually have to look at the art piece to be able to answer the questions.
+
+Interviewer  2:10  
+ Now, comparing the new application to the Rijksstudio, what features do you find different or improved in our new application compared to the Rijksstudio?
+
+Interviewee  2:22  
+I mean, what definitely brings an improvement is having this sort of questions where you can somehow test yourself, challenge yourself in a way. Which is good. On the one hand, on the other hand, what I thought was quite a nice thing from the Rijksstudio is that you could actually look at what others connect with the art pieces. And I think that's one thing that could have been left there. Because it creates some sort of community because the questions, you interact with the website, right, but you don't interact with other people, which I find to be a bit sad. Yeah, so it can be improved in a way that you leave in those collages. And don't delete them fully. But at the same time, also have the questions with some kind of competition, you know, I think that would be really nice.
+
+Interviewer  3:25  
+Which of the two platforms do you prefer to interact with the art collection?
+
+Interviewee  3:32  
+If the platforms would go way faster? I would definitely engage with them. Else, I think I would just click away to be fair. But in general, I would rather take the second option, so your option with the quiz. Although I do feel it's a bit unnecessary to have the descriptions in there. Because then I don't really feel challenged. So it'd be nice to like, be able to interact with the art piece as such, by looking at it and then answer a question on the basis of it. Rather than, I don't know, for example, there was something about the Amsterdam period or something and then it asked something about the Amsterdam period, or like squeezing a lemon, and it's that it's squeezing a lemon. So maybe delete this and ask questions that are about the painting and not about the context of the painting.
+
+Interviewer  4:28  
+So yeah, that's brings us to the next point about the AI generated questions. Right. How relevant did you find the AI generated questions to the artwork and the artist, what was the relevance? 
+
+Interviewee  4:40  
+Yeah, I guess that's a bit repetitive in this case. I think it's not that relevant to the art itself. Also, not. To the artist I mean, with the description it was nice to have a bit of context. But I feel like that context should be very general about the artists and the time period instead of about the art piece itself. I think that would make it much nicer. And then the questions about the art piece, right. I think that would be way nicer, plus more questions, because I feel like two questions are way too little, especially for such big art pieces. Right. So I think it would be nice to combine a bit there.
+
+Interviewer  5:18  
+And do you think that the questions helped you learn more about the art piece?
+
+Interviewee  5:23  
+Um, not the questions, but the descriptions. That's why I would say, you know, put the descriptions away, put a bit of context in there and then make the questions about the art piece. 
+
+Interviewer  5:37  
+Okay, and about the difficulty level. Do you think it was appropriate for your knowledge of art? Or do you think it was too easy? Too difficult?
+
+Interviewee  5:47  
+Yeah, it's way too easy, because you don't have to have any knowledge in art to be able to answer the questions because of those descriptions. So yeah, way too easy. I have to lose as well, you know,
+
+Interviewer  6:00  
+Otherwise, you won't play anymore. 
+
+Interviewee  6:04  
+Yeah, exactly hahahah.
+
+Interviewer  6:05  
+Moving on to the scoring system that was implemented, did it motivate you to explore, go and explore more artworks and more arts after you completed the first one.
+
+Interviewee  6:17  
+I mean in theory, yeah. It was nice to see that other people have more points. So if it was a well working website, I would consider getting more points to become the highest.
+
+Interviewer  6:30  
+And was it also clear how the points are calculated?
+
+Interviewee  6:33  
+No, I didn't know why someone has 17 points. And where my points went? Maybe you can put it on the on the upper part of the website, right? Like put like, one out of four points or something right? A counter. And then you can say when you finish, want to get more points? Okay, go to the next painting, or next artist.
+
+Interviewer  7:01  
+Good idea. Thank you. Some question about the overall satisfaction of the product? Are you satisfied with RijksAI? Our solution? Yes or no?
+
+Interviewee  7:16  
+I would say yes and no. 
+
+Interviewer  7:19  
+Explain.
+
+Interviewee  7:20  
+I'm satisfied with the base solution of implementing some kind of quiz and making me or like, trying to let me interact with a website. That's good. I'm satisfied with that. I'm satisfied with how it was implemented as well. And with regard to design, but I'm not satisfied with how it is working at the moment. Looking at how little questions there are. That I cannot click on the photo. So I would probably just leave the website immediately. You know, how slow it is going. With the descriptions because of which I'm not being challenged. And I don't really look at the pieces. So I think a lot can be improved. But the main idea is nice. And the design of it is also nice already. 
+
+Interviewer  8:13  
+Great. Do you have any final thoughts or comments about the experience?
+
+Interviewee  8:23  
+Um, I think you're doing a good job. Although, I do think that you shouldn't forget what the museum had from beginning on, because you built something completely different. And I think that the Rijksstudio had something really nice about it as well. Especially, for example for art students, or people who are very into art, because I think those are the people who really go on that website. And I think they really like that, you know, sort of collages that they can make collections that they can make, you know, I don't know if they can like comment, what others do as well. But that would be something that could be implemented, right? Like making a combination of these two, I think that would be really nice to have, like, not only that competitive part, but also that, you know, community part and being able to react on other people's collections. I think both is nice. So that shouldn't be forgotten in your whole project.
+
+Interviewer  9:23  
+Great. Thank you so much.
+
+Interviewee  9:25  
+You're welcome.
