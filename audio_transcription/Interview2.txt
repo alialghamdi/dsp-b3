@@ -56,7 +56,7 @@ Interviewer  6:05
 Moving on to the scoring system that was implemented, did it motivate you to explore, go and explore more artworks and more arts after you completed the first one.
 
 Interviewee  6:17  
-I mean in theory, yeah. It was nice to see that other people have more points. So if it was a well working website, I would consider getting more points to become the highest.
+I mean in theory, yeah. It was nice to see that other people have more points. So if it was a fully working website, I would consider getting more points to become the highest.
 
 Interviewer  6:30  
 And was it also clear how the points are calculated?
